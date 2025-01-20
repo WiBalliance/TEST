@@ -38,23 +38,23 @@ const updateGantt = (showCompleted, nameFilter = '') => {
 const loadTasks = async () => {
   const taskFiles = [
         // 終了イベント
-        './tasks/tasks_old.json',
+        '../tasks/tasks_old.json',
         // 
-        './tasks/tasks_turi.json',
+        '../tasks/tasks_turi.json',
         // 超得イベント
-        './tasks/tasks_setugenboueki.json',
+        '../tasks/tasks_setugenboueki.json',
         // 通常イベント
-        './tasks/tasks_hyougennsihaisya.json',
-        './tasks/tasks_gunbi.json',
-        './tasks/tasks_doumeisoudouin.json',
-        './tasks/tasks_heiki.json',
-        './tasks/tasks_doumeisouha.json',
-        './tasks/tasks_kyoukoku.json',
-        './tasks/tasks_toride.json',
-        './tasks/tasks_sikannkeikaku.json',
-        './tasks/tasks_jina.json',
-        './tasks/tasks_kuma1.json'
-        //'tasks_kuma2.json'  //未設置
+        '../tasks/tasks_hyougennsihaisya.json',
+        '../tasks/tasks_gunbi.json',
+        '../tasks/tasks_doumeisoudouin.json',
+        '../tasks/tasks_heiki.json',
+        '../tasks/tasks_doumeisouha.json',
+        '../tasks/tasks_kyoukoku.json',
+        '../tasks/tasks_toride.json',
+        '../tasks/tasks_sikannkeikaku.json',
+        '../tasks/tasks_jina.json',
+        '../tasks/tasks_kuma1.json'
+        //'../tasks/tasks_kuma2.json'  //未設置
       ];
 
   try {
